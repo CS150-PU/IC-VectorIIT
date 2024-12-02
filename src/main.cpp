@@ -13,6 +13,8 @@
 #include <vector>
 #include <iomanip>
 
+using namespace std;
+
 // TODO #2: Write a function prototype called getRandom that has two
 //          parameters first and second. If first <= second, return a random
 //          integer in the range of first to second inclusive; otherwise,
@@ -31,7 +33,6 @@
 //          printVector (aVector, 3, 5); will print 3 values per line with
 //          each value in the vector printed right justified in a field of 5.
 
-using namespace std;
 
 int main () {
   // TODO #1: Define a vector, aVector, capable of holding ints
